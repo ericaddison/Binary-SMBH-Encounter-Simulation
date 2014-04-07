@@ -7,8 +7,9 @@ The code is currently configured to evolve a binary system with center of mass i
 
 A sample command line call to the program looks like:
 
-./BEMRI -ang -bs2 -so -ips 200 -N 5 -fname ../data/out.dat
-	This command runs the simulation with randomized binary orientations using the Burlish-Stoer integrator, suppressing screen output, sampling over 200 evenly spaced initial binary phases per orientation, running 5 total orientations (no position or GW output), and outputting to the file ../data/out.dat.
+	./BEMRI -ang -bs2 -so -ips 200 -N 5 -fname ../data/out.dat
+	
+This command runs the simulation with randomized binary orientations using the Burlish-Stoer integrator, suppressing screen output, sampling over 200 evenly spaced initial binary phases per orientation, running 5 total orientations (no position or GW output), and outputting to the file ../data/out.dat.
 
 	
 The following command line options are available:
