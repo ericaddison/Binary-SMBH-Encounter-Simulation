@@ -1,7 +1,7 @@
 Binary-SMBH-Encounter-Simulation
 ================================
 
-This repository contains a gravitational N-body code based on few-body regularization () and the CHAIN structure (). The integrator consists of Burlish-Stoer extrapolation on top of a leap-frog integrator, and evolves the Newtonian equations of motion for three bodies.
+This repository contains a gravitational N-body code based on few-body regularization (Mikkola & Tanikawa 1999) and the CHAIN structure (Mikkola & Aarseth 1993). The integrator consists of Burlish-Stoer extrapolation on top of a leap-frog integrator, and evolves the Newtonian equations of motion for three bodies.
 
 The code is currently configured to evolve a binary system with center of mass in orbit around a third mass.
 
