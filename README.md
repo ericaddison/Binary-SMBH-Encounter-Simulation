@@ -22,7 +22,7 @@ The following command line options are available:
 	//	-so					suppress any screen output
   	//  -PbN [value]		set Pb = value*tnode
   	//	-th0 [value]		set theta0 = value
-  	//	-bs2				use BS integrator instead of RK4
+  	//	-RK4				use RK4 integrator instead of bs2
   	//	-fname [string]		use string as file name instead of BEMRI.dat
   	//	-fpars [string] 	use string as filename to find input parameters
   	//	-beta [value]		use beta = value
